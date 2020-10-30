@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Mini Project</string>
+    <string name="activity2_name">Second Activity</string>
+    <string name="activity3_name">Third Activity</string>
+    <string name="button_login">LOGIN</string>
+    <string name="button_register">REGISTER</string>
+    <string name="text_tittle">MINI PROJECT ANDROID</string>
+    <string name="text_author">Submitted by Salsabila Zahirah Pranida</string>
+    <string name="button_submit">SUBMIT</string>
+    <string name="data_form">Data Form</string>
+    <string name="netflixDesc">a Netflix</string>
+    <string name="gmapsDesc">a Gmaps</string>
+</resources>
