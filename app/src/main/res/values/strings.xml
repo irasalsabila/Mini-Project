@@ -10,4 +10,6 @@
     <string name="data_form">Data Form</string>
     <string name="netflixDesc">a Netflix</string>
     <string name="gmapsDesc">a Gmaps</string>
+    <string name="gojekDesc">a Gojek</string>
+    <string name="classroomDesc">a Classroom</string>
 </resources>

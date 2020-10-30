@@ -63,4 +63,63 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/ivGmaps"
         app:layout_constraintTop_toTopOf="@+id/ivGmaps" />
+
+    <ImageView
+        android:id="@+id/ivGojek"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/gojekDesc"
+        android:onClick="gojek"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivGmaps"
+        app:srcCompat="@drawable/gojek" />
+
+    <TextView
+        android:id="@+id/tvGojek"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:text="@string/gojekDesc"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ivGojek"
+        app:layout_constraintTop_toTopOf="@+id/ivGojek" />
+
+    <ImageView
+        android:id="@+id/ivClassroom"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/classroomDesc"
+        android:onClick="classroom"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivGojek"
+        app:srcCompat="@drawable/classroom" />
+
+    <TextView
+        android:id="@+id/tvClassroom"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:text="@string/classroomDesc"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ivClassroom"
+        app:layout_constraintTop_toTopOf="@+id/ivClassroom" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

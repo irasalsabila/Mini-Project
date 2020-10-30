@@ -33,4 +33,20 @@ public class SecondActivity extends AppCompatActivity {
         Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
         startActivity(intent);
     }
+
+    public void gojek(View view) {
+        String url = "https://gojek.onelink.me/2351932542?af_banner=true&pid=Go-Jek_Web&c=WebToAppBanner&af_adset=bottom-banner&af_ad=%2F&af_dp=gojek%3A%2F%2Fhome";
+        Uri webpage = Uri.parse(url);
+        Log.d("URL", url);
+        Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
+        startActivity(intent);
+    }
+
+    public void classroom(View view) {
+        String url = "https://classroom.google.com/u/0/h";
+        Uri webpage = Uri.parse(url);
+        Log.d("URL", url);
+        Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
+        startActivity(intent);
+    }
 }
